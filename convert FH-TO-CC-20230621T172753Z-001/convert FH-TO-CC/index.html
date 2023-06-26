@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fahrenheit to celsius digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tempature Converter</h1>
+        <span class="result1">Result</span>
+        <input type="result" id="resultContainer">
+        
+        <div class="input">
+            <span class="deg">Degrees</span>
+            <input type="text">
+            <span>Type</span>
+            <select name="temp_diff" id="temp_diff">
+                <option value="select">---Select---</option>
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="celsius">celsius</option>
+            </select>
+
+        </div>
+        <div id="btn" onsubmit="calculateTemp(); return false">Convert</div>
+
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

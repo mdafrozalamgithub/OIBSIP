@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 100px;
+    /* width: 100%; */
+}
+
+
+nav ul{
+    margin-left: 20px;
+    list-style: none;
+    display: flex;
+}
+nav ul li img{
+    border-radius: 50px;
+    border: 1px solid black;
+}
+nav ul li{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+nav .home{
+    margin-left: 900px;
+}
+.personal ul{
+    display: flex;
+    list-style: none;
+
+}
+
+ .personal ul .pic{
+    color: white;
+    margin: 50px;
+    width: 400px;
+    /* height: 300px; */
+    padding-left: 150px;
+    padding-top: 350px;
+    font-size: larger;
+    font-weight: 900;
+    
+    background: url('/rose.jpg');
+    background-repeat: no-repeat;
+
+}
+
+.personal{
+    background-color: yellow;
+    /* color: blac; */
+    height: 300px;
+    /* width: 100%; */
+}
+.personal ul li p{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size:larger;
+    color: black;
+    
+}
+.personal ul li span{
+    margin-left: 50px;
+}
+.main-section{
+    background-color: black;
+    color: white;
+    height: 100%;
+    /* width: 100%; */
+}
+.main-section .design{
+    padding: 200px;
+}
+.main-section .design .btn1{
+    margin-top: 20px;
+   padding-top: 10px;
+    background-color: yellow;
+    color: black;
+    height: 40px;
+    width: 200px;
+    margin-left: 400px;
+    text-align: center;
+}
+.main-section .model{
+    height: 100%;
+    width: 100%;
+}
+.main-section .model .card{
+    padding-top: 20px;
+    /* display: flex; */
+}
+
+.project h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.model .card span{
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+
+
+}
+
+.model .card span i{
+    height: 200px;
+    width: 200px;
+}
+.model .name ul{
+    display: flex;
+    list-style: none;
+
+}
+.model .name ul li{
+    margin-left: 70px;
+    
+    font-size: 30px;
+}
+.model .name ul .insta{
+    margin-left: 170px;
+    /* color: red; */
+}
+
+.main-section p{
+    text-align: center;
+    padding-top: 20px;
+}
+.main-section .btn{
+    text-align: center;
+    background-color: blue;
+    margin-top: 20px;
+   
+    padding-top: 10px;
+    
+    margin-left: 620px;
+    height: 30px;
+    width: 100px;
+    
+    
+}
+
+
+
+.detail{
+    display: flex;
+    background-color: yellow;
+    color: white;
+    height: 100%;
+    
+}
+.detail .row{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+} 
+.detail .row .register input{
+
+    border: none;
+    background-color: yellow;
+    margin-top: 20px;
+}
+.detail .row .register input .mr{
+    margin-top: 30px;
+}
+.detail .row .register  .line{
+    margin-top: 10px;
+    width: 500px;
+    height: 2px;
+    background-color: black;
+}
+.detail .row .register  .line1{
+    margin-top: 100px;
+}
+.detail .row .register  .submit{
+    margin-bottom: 20px;
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+}
+.detail .row .contact {
+    margin-left: 100px;
+    color: black;
+}
+.detail .row .contact h1{
+    margin-left: 200px;
+}
+.detail .row .contact .icon i{
+    margin-top: 20px;
+    
+    margin-left: 40px;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+    /* width: 100%; */
+}
+
